@@ -1,6 +1,6 @@
 package com.ss.withoutO;
 
-public class Payment {
+public class Booking {
 
 	public void makePayment(String paymentType)
 	{
