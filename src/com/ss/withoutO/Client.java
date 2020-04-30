@@ -2,7 +2,7 @@ package com.ss.withoutO;
 
 import java.util.Scanner;
 
-public class BookingMain {
+public class Client {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -11,7 +11,7 @@ public class BookingMain {
 	    System.out.println("Enter Payment type");
 
 	    String paymentType = scanner.nextLine(); 
-	    Payment payment=new Payment();
+	    Booking payment=new Booking();
 	    payment.makePayment(paymentType);
 	}
 
