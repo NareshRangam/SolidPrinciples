@@ -8,11 +8,11 @@ public class Payment {
 		{
 			System.out.println("Your Cash Payment Succes");
 		}
-		if(paymentType.equalsIgnoreCase("card"))
+		else if(paymentType.equalsIgnoreCase("card"))
 		{
 			System.out.println("Your Card Payment Succes");
 		}
-		if(paymentType.equalsIgnoreCase("wallet"))
+		else if(paymentType.equalsIgnoreCase("wallet"))
 		{
 			System.out.println("Your Wallet Payment Succes");
 		}
